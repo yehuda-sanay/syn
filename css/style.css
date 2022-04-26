@@ -1,0 +1,25 @@
+#div-grid {
+    display: grid;
+    grid-template-areas:
+      'header header header header'
+      'main main main main'
+      'main main main main'
+      'main main main main'
+      'main main main main'
+      'footer footer footer footer';
+      width: 100vw;
+      height: 100vh;
+}
+
+#header{
+    grid-area: header;
+    background-color: black;
+}
+#main{
+    grid-area: main;
+    background-color: aqua;
+}
+#footer{
+    grid-area: footer;
+    background-color: blue;
+}
