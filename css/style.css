@@ -29,8 +29,33 @@
     }
     
     #div-footer{
+    display: flex;
+    flex-direction: row;
     grid-area: footer;
-    background-color: brown;
+    background-color: black;
+    justify-content: space-around;
+    align-items:center; 
+    }
+    .ul-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width: 100px;
+    }
+    .name{
+        color: white;
+    }
+    .name-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .img-footer{
+        display: flex;
+        justify-content: space-around;
+        width: 5vw;
+        height: 5vh;
     }
     
 }
