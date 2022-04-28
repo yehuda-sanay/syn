@@ -1,8 +1,110 @@
+@media screen and (min-width:600px){
+    body{
+        background:url(/img/111.jpg);
+        background-repeat:no-repeat ;
+        background-size:cover ;
+    }
+    #div-start{
+        width: 100vw;
+    }
+    #img-party{
+        display: none;
+        height: 50vh;
+        width: 73vw;
+        
+    }
+    #gif{
+       width: 100vw;
+       height: 40vh;
+    }
+    #div-grid{
+        
+        display: grid;
+        grid-template-areas: 
+        'header header header header'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'footer footer footer footer ';
+         /* width: 100vw; */
+         /* height: 100vh; */
+      }
+     
+      #nav-menu{
+          width: 98.7vw;
+          height: 10vh;
+      }
+    #div-header{
+        grid-area: header;
+        width: 99.1vw;
+        flex-direction: row-reverse;
+        
+       
+    } 
+    #img-ya-logo{
+        height: 9vh;
+        width: 5vw;
+    }
+    /* #img45{width: 100vw;} */
+    .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 1.1em;
+       font-weight: bold;
+        text-decoration: none;
+    }
+    .main{
+        width: 100vw;
+        background-position: center;
+        background-position: no;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        grid-area: main;
+        display: flex;
+      
+    
+    }
+    .container{
+        width: 60%;
+    }
+    .headline{
+        display: flex;
+        font-size: 5em;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+    .headline1{
+        display: flex;
+        font-size:2em;
+        justify-content: center;
+        color: rgb(255, 255, 255);  
+        text-align: center;
+    }
+    
 
-#div-grid{
-  display: grid;
+    p{
+        color: chartreuse;
+        font-size: 2em;
+    }
+    
+    #div-footer{
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+        justify-content: space-around;
+        align-items:center; 
+        width: 98.7vw;
+        
+         } 
+  
 }
+
 @media screen and (max-width:600px){
+   #gif{
+       display: none;
+   }
     #img-party{
         display: flex;
         width:100vw;
@@ -21,10 +123,7 @@
          /* width: 100vw; */
          /* height: 100vh; */
       }
-      #img-party{
-          width: 100vw;
-          
-      }
+     
       #nav-menu{
           width: 100vw;
           height: 5vh;
@@ -33,9 +132,10 @@
         grid-area: header;
         width: 100vw;
         flex-direction: row-reverse;
+        
         /* height: 1vh;   */
     } 
-    #img45{width: 100vw;}
+    /* #img45{width: 100vw;} */
     .menu{
         font-family: Arial, Helvetica, sans-serif;
         color:white;
@@ -43,23 +143,31 @@
        font-weight: bold;
         text-decoration: none;
     }
+    #img-ya-logo{
+        display: none;
+    }
     .main{
+        background: url(/img/ya.png);
+        background-position: center;
+        background-position: no;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         grid-area: main;
         display: flex;
-        background-color: rgb(108, 87, 87);
+        background-color: black;
     
     }
     .headline{
         display: flex;
         font-size: 5em;
         justify-content: center;
-        color: rgb(71, 64, 46);
+        color: rgb(255, 255, 255);
     }
     .headline1{
         display: flex;
         font-size:2em;
         justify-content: center;
-        color: rgb(71, 64, 46);  
+        color: rgb(255, 255, 255);  
         text-align: center;
     }
     
@@ -80,6 +188,7 @@
         background-color: black;
         justify-content: space-around;
         align-items:center; 
+        
         }
         .ul-footer{
             display: flex;
@@ -101,5 +210,6 @@
             justify-content: space-around;
             width: 5vw;
             height: 5vh;
+           
         }
 }
