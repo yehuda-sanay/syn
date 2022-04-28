@@ -182,6 +182,37 @@
     }
     
     #div-footer{
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: row;
+    grid-area: footer;
+    background-color: black;
+    justify-content: space-around;
+    align-items:center; 
+    }
+    .ul-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width: 100px;
+    }
+    .name{
+        color: white;
+    }
+    .name-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .img-footer{
+        display: flex;
+        justify-content: space-around;
+        width: 5vw;
+        height: 5vh;
+    }
+    
+=======
         display: flex;
         flex-direction: row;
         grid-area: footer;
@@ -212,4 +243,5 @@
             height: 5vh;
            
         }
+>>>>>>> b6ea3befdd66e4de48b99a8d6e311697b8c68f2d
 }

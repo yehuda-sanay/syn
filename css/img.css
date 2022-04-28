@@ -1,0 +1,224 @@
+@media screen and (min-width:600px){
+    
+      
+    #div-start{
+        width: 100vw;
+    }
+    #img-party{
+        display: none;
+        height: 50vh;
+        width: 73vw;
+        
+    }
+
+    #div-grid{
+        
+        display: grid;
+        grid-template-areas: 
+        'header header header header'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'footer footer footer footer ';
+         /* width: 100vw; */
+         /* height: 100vh; */
+      }
+     
+      #nav-menu{
+          width: 98.7vw;
+          height: 10vh;
+      }
+    #div-header{
+        grid-area: header;
+        width: 99.1vw;
+        flex-direction: row-reverse;
+        
+       
+    } 
+    #img-ya-logo{
+        height: 9vh;
+        width: 5vw;
+    }
+    /* #img45{width: 100vw;} */
+    .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 1.1em;
+       font-weight: bold;
+        text-decoration: none;
+    }
+   
+    #main{
+        display: flex;
+        grid-area: main;
+        justify-content: center;
+        
+      }
+      .row{
+          flex-wrap: wrap;
+      }
+      .container{
+          display: flex;
+          justify-content:space-around;
+          
+      }
+      .city{
+          display: flex;
+          justify-content: center;
+          font-size: xx-large;
+          font-weight: bolder;
+          
+      }
+      .music-name{
+          width: 100vw;
+          display: flex;
+          justify-content: center;
+      }
+      .img-main{
+          display: flex;
+          width: 25vw;
+          height: 20vh;
+          justify-content: center;
+          
+      }
+      .card{
+          width: 15vw;
+          
+          display: flex;
+         
+          
+      }
+      .card-img-top{
+          height: 30vh;
+      }
+
+
+
+
+    
+
+    
+    #div-footer{
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+        justify-content: space-around;
+        align-items:center; 
+        width: 98.7vw;
+        
+         } 
+         .movie-container{
+             width: 20vw;
+         }
+  
+}
+
+
+
+@media screen and (max-width:600px){
+ 
+    #img-party{
+        display: flex;
+        width:100vw;
+        height: 25vh;
+    }
+    #div-grid{
+        display: grid;
+        grid-template-areas: 
+        'header header header header'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
+        'footer footer footer footer ';
+         /* width: 100vw; */
+         /* height: 100vh; */
+      }
+     
+      #nav-menu{
+          width: 100vw;
+          height: 5vh;
+      }
+    #div-header{
+        grid-area: header;
+        width: 100vw;
+        flex-direction: row-reverse;
+        
+        /* height: 1vh;   */
+    } 
+    /* #img45{width: 100vw;} */
+    .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 1.1em;
+       font-weight: bold;
+        text-decoration: none;
+    }
+    #img-ya-logo{
+        display: none;
+    }
+
+    #main{
+      display: block;
+      grid-area: main;
+      
+    }
+    .city{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        
+    }
+    .music-name{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .img-main{
+        display: flex;
+        width: 25vw;
+        height: 20vh;
+        justify-content: center;
+        
+    }
+
+    
+
+    
+    
+    #div-footer{
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+        background-color: black;
+        justify-content: space-around;
+        align-items:center; 
+        
+        }
+        .ul-footer{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            width: 100px;
+        }
+        .name{
+            color: white;
+        }
+        .name-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .img-footer{
+            display: flex;
+            justify-content: space-around;
+            width: 5vw;
+            height: 5vh;
+           
+        }
+}
