@@ -14,21 +14,67 @@
         'header header header header'
         'main main main main'
         'main main main main'
+        'main main main main'
+        'main main main main'
+        'main main main main'
         'footer footer footer footer ';
-         width: 100vw;
-         height: 100vh;
+         /* width: 100vw; */
+         /* height: 100vh; */
+      }
+      #img-party{
+          width: 100vw;
+          
+      }
+      #nav-menu{
+          width: 100vw;
+          height: 5vh;
       }
     #div-header{
         grid-area: header;
-        background-color: aquamarine;
+        width: 100vw;
+        flex-direction: row-reverse;
+        /* height: 1vh;   */
     } 
-    
-    #div-main{
+    #img45{width: 100vw;}
+    .menu{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 1.1em;
+       font-weight: bold;
+        text-decoration: none;
+    }
+    .main{
         grid-area: main;
-        background-color: blue;
+        display: flex;
+        background-color: rgb(108, 87, 87);
+    
+    }
+    .headline{
+        display: flex;
+        font-size: 5em;
+        justify-content: center;
+        color: rgb(71, 64, 46);
+    }
+    .headline1{
+        display: flex;
+        font-size:2em;
+        justify-content: center;
+        color: rgb(71, 64, 46);  
+        text-align: center;
+    }
+    
+    /* #div-main{
+        grid-area: main;
+        background-color: rgb(0, 0, 0);
+        
+    } */
+    p{
+        color: chartreuse;
+        font-size: 2em;
     }
     
     #div-footer{
+<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     grid-area: footer;
@@ -58,4 +104,34 @@
         height: 5vh;
     }
     
+=======
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+        background-color: black;
+        justify-content: space-around;
+        align-items:center; 
+        }
+        .ul-footer{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            width: 100px;
+        }
+        .name{
+            color: white;
+        }
+        .name-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .img-footer{
+            display: flex;
+            justify-content: space-around;
+            width: 5vw;
+            height: 5vh;
+        }
+>>>>>>> b6ea3befdd66e4de48b99a8d6e311697b8c68f2d
 }
